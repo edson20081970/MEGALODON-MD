@@ -13,14 +13,14 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~PItDHC4b#iVp9MZDL1Sw-1NAiYE7OtglDPjPzTBYy5fG0-YBXneI",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "MEGALODON-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948702213",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "50932388261",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || ("—͟͞͞★𝙳@𝒈๓@—͟͞͞★") || "",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     
@@ -34,7 +34,7 @@ module.exports = {
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "MEGALODON-MD",     // Sticker pack name
+    STICKER_NAME: process.env.STICKER_NAME || "—͟͞͞★𝙳@𝒈๓@—͟͞͞★",     // Sticker pack name
 
     
     // ===== MEDIA & AUTOMATION =====
@@ -43,9 +43,9 @@ module.exports = {
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
 
     // ===== SECURITY & ANTI-FEATURES =====
-    ANTI_BOT: process.env.ANTI_BOT || "true",
+    ANTI_BOT: process.env.ANTI_BOT || "false",
     //antibot true or false
-    ANTI_DELETE: process.env.ANTI_DELETE || "true",
+    ANTI_DELETE: process.env.ANTI_DELETE || "false",
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
@@ -68,7 +68,7 @@ module.exports = {
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
    
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",     
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",     
     // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // Show bot as always online?
@@ -80,5 +80,5 @@ module.exports = {
     
     WELCOME: process.env.WELCOME || "false",
     
-    AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
+    AMDIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 };

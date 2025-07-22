@@ -26,9 +26,9 @@ module.exports = {
     
     // ===== AUTO-RESPONSE SETTINGS =====
     
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",// Reply to status updates?
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true"
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*MEGALODON BOT VIEWED YOUR STATUS 🤖*",  // Status reply message
-    READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
+    READ_MESSAGE: process.env.READ_MESSAGE || "true",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?

@@ -45,10 +45,10 @@ module.exports = {
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_BOT: process.env.ANTI_BOT || "true",
     //antibot true or false
-    ANTI_DELETE: process.env.ANTI_DELETE || "true",
+    ANTI_DELETE: process.env.ANTI_DELETE || "false",
     ANTI_CALL: process.env.ANTI_CALL || "true",
 
-    REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
+    REJECT_MSG: process.env.REJECT_MSG || "*📞 no call me i am busy*",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
 
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",

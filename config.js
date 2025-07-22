@@ -46,7 +46,7 @@ module.exports = {
     ANTI_BOT: process.env.ANTI_BOT || "true",
     //antibot true or false
     ANTI_DELETE: process.env.ANTI_DELETE || "true",
-    ANTI_CALL: process.env.ANTI_CALL || "true",
+    ANTI_CALL: process.env.ANTI_CALL || "false",
 
     REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
